@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="main.js"></script>
+    <title>Employ</title>
+</head>
+
+<body>
+    <header>  
+        <nav>
+            <div class = "headerLogo">
+                <img src="logofundobranco.png" alt="Logo da Empresa">
+            </div>
+            <ul>               
+                <div class="headerProduct">                    
+                    <button id="product-btn" class="headerProductButton" onclick="toggleMenu('product-menu')">Product 
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#2b2b2b">
+                            <path d="M480-345 240-585l56-56 184 184 184-184 56 56-240 240Z"/>
+                        </svg>
+                        <i id="product-icon" class="arrow-down"></i>
+                    </button>
+
+                    <div id="product-menu" class="menu oculto">
+                        <ul class = "ulProduct">
+                            <li><a href="#">Área 1</a></li>
+                            <li><a href="#">Área 2</a></li>
+                            <li><a href="#">Área 3</a></li>
+                        </ul>
+                    </div>
+                    <div id="opcoes" class="oculto">
+                        <ul>
+                            <li><a href="#">Área 1</a></li>
+                            <li><a href="#">Área 2</a></li>
+                            <li><a href="#">Área 3</a></li>
+                        </ul>
+                    </div>
+                
+                    <button class = "headerProductButton">Learning Center<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#2b2b2b">
+                        <path d="M480-345 240-585l56-56 184 184 184-184 56 56-240 240Z"/>
+                    </svg></button>
+                    <button class = "headerPricingButton">Pricing</button>
+                    <button class = "headerProductButton">Watch Demo</button>                   
+                </div>         
+                 
+                <div class = "headerLogin">
+                    <button class = "headerProductButton">Talk to Sales</button>
+                    <button class = "loginButton">Log in</button> 
+                    <button class = "getStartedButton">Get started</button>
+                </div>                                                   
+            </ul>            
+        </nav>
+    </header>
+    
+    <div class="faixa"></div>
+    
+    <div class="content"> 
+
+        <div class="persuasive-text">            
+            <p class="persuasiveTitle">Pick the plan that's right for you</p>                    
+        </div>
+        <div class="persuasiveSub-text">
+            <p class="persuasiveSubtitle">No credit car required.</p>
+        </div>   
+        
+        <div class = "billed">
+            <p><span>Billed yearly save 20%</span> | Billed monthly</p>
+        </div>
+    
+        <div class = "priceDiv">
+            <div class = "price">
+                <h2 class = "free">Free</h2>
+                <h1 class = "perprice">$0</h1><br><br>
+                <p class = "bill">Seriouly, free forever</p><br>
+                <button class = "freeButton">Sign up for free</button><br><br>
+                <p class = "p"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#e8eaed"><path d="M389-267 195-460l51-52 143 143 325-324 51 51-376 375Z"/></svg>Up to 10 videos</p>
+                <p class = "p"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#e8eaed"><path d="M389-267 195-460l51-52 143 143 325-324 51 51-376 375Z"/></svg>Customizable player</p>
+                <p class = "p"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#e8eaed"><path d="M389-267 195-460l51-52 143 143 325-324 51 51-376 375Z"/></svg>Recording and editing</p><br>
+            </div>
+            
+            <div class = "price">
+                <h2 class = "plus">Plus</h2>
+                <h1 class = "perprice">$19</h1>
+                <p class = "perMo">/mo</p><br><br>        
+                <p class = "bill">Billed at $228 per year</p><br>
+                <button class = "plusButton">Start a free trial</button><br><br>
+                <p class = "p">Everything in Free, and...</p>
+                <p class = "p"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#e8eaed"><path d="M389-267 195-460l51-52 143 143 325-324 51 51-376 375Z"/></svg>Remove Employ branding</p>
+                <p class = "p"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#e8eaed"><path d="M389-267 195-460l51-52 143 143 325-324 51 51-376 375Z"/></svg>Basic CTAs</p>
+                <p class = "p"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#e8eaed"><path d="M389-267 195-460l51-52 143 143 325-324 51 51-376 375Z"/></svg>Multiple users</p>
+            </div>
+    
+            <div class = "price">
+                <h2 class = "pro">Pro</h2>
+                <h1 class = "perprice">$79</h1>
+                <p class = "perMo">/mo</p><br><br> 
+                <p class = "bill">Billed at $948 per year</p><br>
+                <button class = "plusButton">Start a free trial</button><br><br>
+                <p class = "p">Everything in Plus, and...</p>
+                <p class = "p"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#e8eaed"><path d="M389-267 195-460l51-52 143 143 325-324 51 51-376 375Z"/></svg>Lead capture forms</p>
+                <p class = "p"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#e8eaed"><path d="M389-267 195-460l51-52 143 143 325-324 51 51-376 375Z"/></svg>Enhanced data analytics</p>
+                <p class = "p"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#e8eaed"><path d="M389-267 195-460l51-52 143 143 325-324 51 51-376 375Z"/></svg>Webinar hosting</p>
+            </div>
+    
+            <div class = "price">
+                <h2 class = "advanced">Advanced</h2>
+                <h1 class = "perprice">$319</h1>
+                <p class = "perMo">/mo</p><br><br> 
+                <p class = "bill">Billed at $3.828 per year</p><br>
+                <button class = "plusButton">Start a free trial</button><br><br>
+                <p class = "p">Everything in Pro, and...</p>
+                <p class = "p"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#e8eaed"><path d="M389-267 195-460l51-52 143 143 325-324 51 51-376 375Z"/></svg>Marketing integrations</p>
+                <p class = "p"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#e8eaed"><path d="M389-267 195-460l51-52 143 143 325-324 51 51-376 375Z"/></svg>Unlimited video galleries</p>
+                <p class = "p"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#e8eaed"><path d="M389-267 195-460l51-52 143 143 325-324 51 51-376 375Z"/></svg>Custom branded webinars</p>
+            </div>
+        </div>        
+    </div>        
+</body>
+</html>

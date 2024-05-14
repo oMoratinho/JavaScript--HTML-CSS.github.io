@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 8px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 12px;
+}
+
+.product {
+    align-items: center;    
+}
+
+.loginButton {
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    float: right;
+    margin-right: 15px;    
+    height: 40px;
+    width: 120px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: #848484;
+    font-weight: bold;
+}
+
+.loginButton:hover {
+    background-color: #ebebeb;
+}
+
+.getStartedButton {
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    float: right;    
+    background-color: #1c63ec;
+    width: 120px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: none;
+    font-weight: bold;
+    color: white;
+} 
+
+.getStartedButton:hover {
+    background-color: #194cb3;
+}
+
+.headerLogo {
+    display: inline-flex;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.headerLogo img {
+    width: 100px;
+    height: auto;
+}
+
+.headerProduct {
+    display: inline-flex;
+    text-decoration: none !important;
+    position: relative;
+
+}
+
+.headerProductButton {
+    height: 40px;
+    width: 140px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;    
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    fill: #2b2b2b;
+}
+
+.headerProductButton:hover {    
+    background-color: #ebebeb;    
+}
+
+.headerPricingButton {
+    height: 40px;
+    width: 120px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;    
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #a998e5;    
+}
+
+.headerPricingButton:hover {
+    background-color: #ebebeb;
+}
+
+.headerLogin {
+    display: inline-flex;     
+    margin-left: 300px;
+    text-decoration: none;
+    
+}
+
+.headerTalkButton {
+    height: 40px;
+    width: 120px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    margin-right: 15px;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    fill: #2b2b2b;      
+}
+
+.headertalkbutton:hover {
+    background-color: #000000;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    justify-content: center;
+}
+.logoEmpresa {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+nav ul li {
+    display: inline; 
+    margin-right: 20px; 
+} 
+
+li {
+    text-decoration: none;
+}
+
+.persuasiveTitle {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 85px;
+    font-weight: none;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(69, 69, 69, 0.5);
+}
+
+.persuasiveSubtitle {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    margin-top: 20px;
+    font-size: 23px;
+    color: #555555;
+    text-shadow: 2px 2px 4px rgba(69, 69, 69, 0.5);
+}
+
+.price {
+    display: inline-block;
+    vertical-align: top;  
+    width: 280px;  
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgb(250, 250, 250);
+    background-color: #ffffff;
+    margin-right: 10px;
+    margin-left: 10px;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+.faixa {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    /* background-color: #1ea35857; */
+    background-color: #1EA358;
+    z-index: -1;    
+}
+
+.perMo {
+    display: inline-block;
+    font-size: 13px;
+}
+
+.freeButton {
+    background-color: #1c63ec;
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: none;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+}
+
+.plusButton {
+    background-color: #835cdc;
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: none;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+}
+
+.oculto {
+    display: none; /* Oculta as opções por padrão */
+}
+
+.priceDiv {
+    display: flex;
+    justify-content: center;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+span {
+    font-weight: bold;
+}
+
+.free {
+    color:#30373d;
+}
+
+.plus {
+    color: #149974;
+}
+
+.pro {
+    color:#1c63ec;
+}
+
+.advanced {
+    color:#835cdc;
+}
+
+.billed {
+    display: flex;
+    margin: 0 0 10px 895px;
+    font-size: 13px;
+}
+
+.menu {
+    position: absolute;
+    top: 100%; /* Posiciona o menu abaixo do botão */
+    left: 0;
+    width: 115px;    
+    background-color: #ffffff; /* Define o fundo branco */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+    border-radius: 0 0 5px 5px; /* Adiciona bordas arredondadas apenas na parte inferior */
+    display: none;
+    z-index: 1000; /* Garante que o menu esteja acima de outros elementos */
+    padding: 10px 0; /* Adiciona um espaçamento interno ao redor do conteúdo do menu */   
+}
+
+.menu.oculto {
+    display: block;    
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    padding: 10px;
+    text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #000000; /* Define a cor do texto */
+    font-weight: bold; /* Define o texto em negrito */
+}
+
+.menu ul li a:hover {
+    color: #1c63ec; /* Muda a cor do texto quando o mouse passa por cima */
+}
+
+.ulProduct {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bill {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.p {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.free {
+    display: flex;
+    margin-bottom: 10px;
+    font-size: 30px;
+    justify-content: center;
+    text-shadow: 2px 2px 4px rgba(118, 118, 118, 0.5);
+}
+
+.plus {
+    display: flex;
+    margin-bottom: 10px;
+    font-size: 30px;
+    justify-content: center;
+    text-shadow: 2px 2px 4px rgba(118, 118, 118, 0.5);
+}
+.pro{
+    display: flex;
+    margin-bottom: 10px;
+    font-size: 30px;
+    justify-content: center;
+    text-shadow: 2px 2px 4px rgba(118, 118, 118, 0.5);
+}
+
+.advanced {
+    display: flex;
+    margin-bottom: 10px;
+    font-size: 30px;
+    justify-content: center;
+    text-shadow: 2px 2px 4px rgba(118, 118, 118, 0.5);
+}
+
+.perprice {
+    display: inline-flex;
+    justify-content: center;
+    font-size: 35px;
+    text-shadow: 2px 2px 4px rgba(118, 118, 118, 0.5);
+}
+
