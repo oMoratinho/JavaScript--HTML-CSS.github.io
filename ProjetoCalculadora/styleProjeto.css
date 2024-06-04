@@ -1,0 +1,50 @@
+body {
+	background: #6eb37f;
+}
+
+.main{
+    background: rgb(44, 44, 44);
+    color: white;
+    position: absolute;
+    width: 400px;
+    text-align: center;
+    padding: 50px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+}
+
+.main h2{
+    text-transform: uppercase;
+    font-family: poppins;
+    margin-bottom: 10%;
+}
+
+input[type="text"]{
+    height: 40px;
+    font-size: 24px;
+}
+
+input[type="radio"]{
+    width: 20px;
+    height: 20px;
+    
+}
+
+b{
+    font-size: 30px;
+}
+
+button{
+    background: #EE4477;
+	border: none;
+	color: #fff;
+	display: inline-block;
+	padding: 10px 25px;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: poppins;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
